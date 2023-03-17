@@ -33,9 +33,9 @@ const MainSection = () => {
         //     console.log("Opaaa");
         // }
 
-    const naVrh = () => {
-        window.scrollTo(0, 0)
-    }
+    // const naVrh = () => {
+    //     window.scrollTo(0, 0)
+    // }
 
 
     return (
@@ -57,7 +57,7 @@ const MainSection = () => {
             </div>
 
 
-            <div className={mainSectionStyle.pocetneSlike}>
+            <div >
 
                 <div className={mainSectionStyle.box}>
                     <div className={mainSectionStyle.slikaBox}
@@ -66,7 +66,7 @@ const MainSection = () => {
                             data-sal-easing="ease"
                             data-sal-duration="500"
                         >
-                        <Link to='/nas-salon' onClick={naVrh}>
+                        <Link to='/nas-salon' >
                             <div className={mainSectionStyle.slikaBoxRam}></div>
                             <StaticImage
                                 src="../assets/images/osnovne/16-1.jpg"
@@ -94,7 +94,7 @@ const MainSection = () => {
                         data-sal-easing="ease"
                         data-sal-duration="500"
                     >
-                        <Link to='/usluge' onClick={naVrh}>
+                        <Link to='/usluge'>
                             <div className={mainSectionStyle.slikaBoxRam}></div>
                             <StaticImage
                                 src="../assets/images/osnovne/1-1.jpg"

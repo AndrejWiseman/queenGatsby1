@@ -19,10 +19,7 @@ import logo from '../assets/images/logo-bg/logo3.png'
 
 
 const Navbar = () => {
-
-    const style = {
-           border: 'none',
-       }
+    
 
     const [show, setShow] = useState(false)
 

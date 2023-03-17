@@ -1,7 +1,7 @@
 import React from 'react'
 import * as footerStyle from '../assets/css/footer.module.css'
 import { Link } from 'gatsby'
-import {CiLocationOn, CiInstagram, CiPhone, CiFacebook} from "react-icons/ci";
+import {CiLocationOn, CiInstagram, CiFacebook} from "react-icons/ci";
 import { FaViber } from "react-icons/fa";
 import {RiMessengerLine} from "react-icons/ri";
 
@@ -80,7 +80,7 @@ const Footer = () => {
                         <p>Bosna i Hercegovina</p>
 
                         <div className={footerStyle.lokacija}>
-                            <CiLocationOn className={footerStyle.locIkon} /> <a href="https://goo.gl/maps/bs5eUjS4Lek41Pzm9" target="_blank" >LOKACIJA SALONA</a>
+                            <CiLocationOn /> <a href="https://goo.gl/maps/bs5eUjS4Lek41Pzm9" target="_blank" >LOKACIJA SALONA</a>
                         </div>
                     </div>
 

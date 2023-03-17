@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import "../assets/css/uslugeLista.scss"
-import * as navStyle from "../assets/css/navbar.module.css";
+// import * as navStyle from "../assets/css/navbar.module.css";
 
 const UslugeLista = () => {
     return (
