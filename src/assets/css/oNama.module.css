@@ -1,0 +1,21 @@
+
+
+.text {
+    max-width: 1024px;
+    margin: 4rem auto;
+}
+
+.text p {
+    color: #eeeeee;
+    margin-bottom: 0.8rem;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    font-family: var(--font6);
+}
+.naslov h2 {
+    color: var(--zlatna);
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: var(--font5);
+}

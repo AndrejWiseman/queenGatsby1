@@ -1,0 +1,143 @@
+
+
+.hero {
+    height: 100vh;
+    background-color: #0d0d0d;
+
+}
+
+header {
+    overflow: hidden;
+}
+
+.heroSlika {
+    filter: opacity(0.2);
+    /*background-image: url('../assets/images/logo-bg/q1.jpg');*/
+    overflow: hidden;
+
+
+}
+
+.heroImg {
+
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo img {
+    width: 250px;
+
+}
+
+
+
+
+/*=== strelica =====*/
+.strlBox {
+    color: var(--zlatna);
+    position: absolute;
+    font-size: 1.7rem;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%);
+
+    /*-webkit-animation: shake-vertical 10s cubic-bezier(0.455,             0.030, 0.515, 0.955) infinite both;*/
+	/*        animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;*/
+}
+
+
+.strl {
+	-webkit-animation: shake-vertical 10s cubic-bezier(0.455,             0.030, 0.515, 0.955) infinite both;
+	        animation: shake-vertical 10s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+/*--- animation shake-vertical --------------*/
+@-webkit-keyframes strl {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+            transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+            transform: translateY(-6.4px);
+  }
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+            transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+            transform: translateY(-6.4px);
+  }
+}
+/*====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 500px) {
+    .logo img {
+        width: 150px;
+    }
+
+    .heroSlika {
+        height: 100vh;
+
+    }
+
+
+}

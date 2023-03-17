@@ -1,0 +1,260 @@
+
+
+
+ [
+    {
+        "naslov": "Manikir",
+        "usluga": [
+          {
+            "vrsta": "*Nadogradnja noktiju (izlivanje)",
+            "cena": "45"
+          },
+          {
+            "vrsta": "QUEEN manikir + gel",
+            "cena": "40"
+          },
+          {
+            "vrsta": "QUEEN manikir + trajni lak",
+            "cena": "35"
+          },
+          {
+            "vrsta": "Geliranje noktiju",
+            "cena": "30"
+          },
+          {
+            "vrsta": "QUEEN manikir (manikir, piling, masaža) + lakiranje",
+            "cena": "20"
+          },
+          {
+            "vrsta": "Trajni lak",
+            "cena": "25"
+          },
+          {
+            "vrsta": "Manikir",
+            "cena": "15"
+          },
+          {
+            "vrsta": "Lakiranje noktiju",
+            "cena": "5"
+          },
+          {
+            "vrsta": "Skidanje gela",
+            "cena": "5"
+          },
+          {
+            "vrsta": "Korekcija nokta",
+            "cena": "4"
+          },
+          {
+            "vrsta": "Nail ART - šare (po noktu)",
+            "cena": "2"
+          },
+          {
+            "vrsta": "Nail ART - crteži (po noktu)",
+            "cena": "5"
+          },
+          {
+            "vrsta": "Swarovski cirkon (1kom)",
+            "cena": "3"
+          },
+          {
+            "vrsta": "*Napomena: Nadogradnja koja prelazi br. 3 na šablonu, naplaćuje se 50% više",
+            "cena": ""
+          }
+        ]
+    },
+
+   {
+        "naslov": "Pedikir",
+        "usluga": [
+          {
+            "vrsta": "Pedikir + lakiranje noktiju",
+            "cena": "35"
+          },
+          {
+            "vrsta": "Suvi/aparaturni pedikir + lakiranje",
+            "cena": "30"
+          },
+          {
+            "vrsta": "QUEEN pedikir (suvi pedikir + spa tretman (kupka, piling, krema, masaža))",
+            "cena": "20"
+          },
+          {
+            "vrsta": "Trajni lak na nogama",
+            "cena": "20"
+          }
+        ]
+   },
+
+    {
+        "naslov": "Depilacija",
+        "usluga": [
+          {
+            "vrsta": "Depilacija leđa",
+            "cena": "20"
+          },
+          {
+            "vrsta": "Depilacija nogu",
+            "cena": "25"
+          },
+          {
+            "vrsta": "Depilacija do koljena",
+            "cena": "15"
+          },
+          {
+            "vrsta": "Depilacija ruku",
+            "cena": "10"
+          },
+          {
+            "vrsta": "Depilacija bikini zone",
+            "cena": "5"
+          },
+          {
+            "vrsta": "Depilacija nausnica",
+            "cena": "5"
+          }
+        ]
+    },
+
+   {
+     "naslov": "Masaža",
+     "usluga": [
+       {
+         "vrsta": "QUEEN masaža 1h (relax masaža cijelog tijela, glave i lica)",
+         "cena": "50"
+       },
+       {
+         "vrsta": "Relax masaža cijelog tijela (50min)",
+         "cena": "45"
+       },
+       {
+         "vrsta": "Parcijalna masaža leđa (30min)",
+         "cena": "25"
+       },
+       {
+         "vrsta": "Parcijalna masaža nogu (20min)",
+         "cena": "20"
+       },
+       {
+         "vrsta": "Parcijalna masaža ruku (10min)",
+         "cena": "15"
+       },
+       {
+         "vrsta": "Masaža glave i lica",
+         "cena": "10"
+       }
+     ]
+   },
+
+   {
+     "naslov": "Obrve",
+     "usluga": [
+       {
+         "vrsta": "Korekcija obrva (manja)",
+         "cena": "5"
+       },
+       {
+         "vrsta": "Korekcija obrva (veća)",
+         "cena": "7"
+       },
+       {
+         "vrsta": "Farbanje obrva",
+         "cena": "5"
+       },
+       {
+         "vrsta": "Farbanje trepavica",
+         "cena": "5"
+       },
+       {
+         "vrsta": "Henna obrve",
+         "cena": "20"
+       }
+     ]
+   },
+
+   {
+     "naslov": "Trepavice",
+     "usluga": [
+       {
+         "vrsta": "Nadogradnja svilenih trepavica",
+         "cena": "80"
+       },
+       {
+         "vrsta": "Ruski volumen do 6D",
+         "cena": "100"
+       },
+       {
+         "vrsta": "Korekcija svilenih trepavica",
+         "cena": "50"
+       },
+       {
+         "vrsta": "Korekcija ruskog volumena do 6D",
+         "cena": "60"
+       },
+       {
+         "vrsta": "Skidanje svilenih trepavica",
+         "cena": "10"
+       },
+       {
+         "vrsta": "Skidanje ruskog volumena",
+         "cena": "15"
+       }
+     ]
+   },
+
+   {
+     "naslov": "Lash lift",
+     "usluga": [
+       {
+         "vrsta": "Lash lift",
+         "cena": "50"
+       },
+       {
+         "vrsta": "Brow lift",
+         "cena": "50"
+       },
+       {
+         "vrsta": "QUEEN lift (lash i brow lift)",
+         "cena": "80"
+       }
+     ]
+   },
+
+   {
+     "naslov": "Puder obrve",
+     "usluga": [
+       {
+         "vrsta": "Puder obrve",
+         "cena": "250"
+       },
+       {
+         "vrsta": "Osvježenje boje puder obrva",
+         "cena": "150"
+       },
+       {
+         "vrsta": "Korekcija puder obrva",
+         "cena": "70"
+       }
+     ]
+   },
+
+   {
+     "naslov": "Šminkanje",
+     "usluga": [
+       {
+         "vrsta": "Šminkanje",
+         "cena": "30"
+       },
+       {
+         "vrsta": "Šminkanje + jednokratne trepavice",
+         "cena": "40"
+       },
+       {
+         "vrsta": "Lijepljenje jednokratnih trepavica",
+         "cena": "5"
+       }
+     ]
+   }
+
+
+]

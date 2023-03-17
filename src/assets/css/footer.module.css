@@ -1,0 +1,162 @@
+.footer{
+    background-color: var(--crnaBg);
+    color: #f3f3f3;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--zlatna);
+    /*margin: 1rem 2.5rem 0 2.5rem;*/
+    margin: 2.5rem;
+
+}
+
+footer h2 {
+    color: var(--zlatna);
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.godina {
+    font-style: italic;
+}
+
+.fbox1 {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.linkoviBox {
+    flex: 1;
+
+}
+
+
+.linkovi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.linkovi a {
+    text-decoration: none;
+    color: white;
+    padding: 0.6rem 0;
+}
+
+.radnoVreme {
+    text-align: left;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+}
+
+td, tr {
+    /*text-align: left;*/
+    padding: 0.3rem 0;
+}
+
+tr {
+    width: 50%;
+}
+td {
+    width: 50%;
+}
+
+
+.kontakt {
+    flex: 1;
+    text-align: left;
+}
+
+.kontakt h4 {
+    color: var(--zlatna);
+    margin-bottom: 0.4rem;
+}
+
+.adresa, .telefon {
+    margin-bottom: 1.3rem;
+}
+
+.lokacija {
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    color: var(--zlatna);
+}
+.lokacija a {
+    text-decoration: underline;
+    color: var(--zlatna);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.socijalneMreze {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+
+    gap: 2rem;
+}
+.socijalneMreze a {
+    color: var(--zlatna);
+}
+
+.fbox2 {
+    margin-top: 3rem;
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        margin: 1rem 1rem;
+    }
+
+    .fbox1 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .linkoviBox {
+        text-align: left;
+    }
+    .linkovi {
+        text-align: left;
+    }
+    .socijalneMreze {
+        justify-content: space-around;
+        margin-top: 2.9rem;
+    }
+
+    .fbox2 {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

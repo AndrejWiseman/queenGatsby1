@@ -1,0 +1,39 @@
+
+
+.rezervacijaWrapper {
+    margin: 0 auto;
+    max-width: 340px;
+    color: var(--zlatna);
+    /*border: 1px solid var(--bela);*/
+}
+
+.rezervacijaWrapper a {
+    text-decoration: none;
+    color: var(--zlatna);
+}
+
+.rezervacijaNaslov {
+    text-align: center;
+    margin-top: 2rem;
+}
+.rezervacijaNaslov p {
+    color: var(--bela);
+    font-size: smaller;
+    margin-top: 0.5rem;
+}
+
+.rezervacijaPoziv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    font-size: 2rem;
+    margin: 5rem auto;
+    gap: 0.5rem;
+}
+.rezervacijaSocial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.2rem;
+}

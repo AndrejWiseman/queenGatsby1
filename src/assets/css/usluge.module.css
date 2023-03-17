@@ -1,0 +1,37 @@
+
+
+
+
+.naslov {
+  margin: 2rem;
+  color: var(--zlatna);
+}
+
+
+.uslugeBox {
+  display: grid;
+  /*grid-auto-flow: column;*/
+  grid-template-columns: 1fr 1fr 1fr;
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+  max-width: 900px;
+  margin: 0 auto;
+
+  /*border: 1px solid red;*/
+}
+
+@media screen and (max-width:800px) {
+  .uslugeBox {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .uslugeBox {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .naslov {
+    margin: 1rem;
+  }
+}
