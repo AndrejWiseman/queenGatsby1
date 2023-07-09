@@ -5,12 +5,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 import logo from '../assets/images/logo-bg/queen3.png'
 import { HiArrowLongDown } from "react-icons/hi2";
 
-// import { ParallaxProvider } from 'react-scroll-parallax';
 import { useParallax } from 'react-scroll-parallax';
 
 
-// import bgSlika from '../assets/images/logo-bg/q1.jpg'
-// import styled from 'styled-components'
+
 
 
 
@@ -76,9 +74,3 @@ const Header = () => {
 export default Header
 
 
-
-
-// const Component = () => {
-//
-//   return <div ref={ref} className="my-thing" />;
-// };

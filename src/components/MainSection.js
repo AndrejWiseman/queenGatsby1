@@ -6,36 +6,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const MainSection = () => {
 
-    // const slika = document.querySelector('.slikaBox');
-    //
-    // slika.addEventListener('click', function(){
-    //     console.log('kliiiik!')
-    // })
-
-
-
-    // React.useEffect(() => {
-    //     const handleKeyDown = (event) => {
-    //         console.log('kliiiik');
-    //     };
-    //     window.addEventListener('click', handleKeyDown);
-    //     // cleanup this component
-    //     return () => {
-    //       window.removeEventListener('click', handleKeyDown);
-    //     };
-    // }, []);
-
-
-
-
-        // function handleSubmit(e) {
-        //     // e.preventDefault();
-        //     console.log("Opaaa");
-        // }
-
-    // const naVrh = () => {
-    //     window.scrollTo(0, 0)
-    // }
 
 
     return (

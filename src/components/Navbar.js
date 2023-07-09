@@ -1,25 +1,13 @@
 import React, { useState } from 'react'
-// import { Link, withPrefix } from 'gatsby'
 import { Link } from 'gatsby'
 import * as navStyle from '../assets/css/navbar.module.css'
 import "../assets/css/main.css"
 import {navLinks, pokaziLinkove } from '../assets/css/navbar.module.css'
 import logo from '../assets/images/logo-bg/logo3.png'
-// import { BiMenuAltRight } from "react-icons/bi";
-
-
-
-// import styled from 'styled-components'
-
-// const Navigacija = styled.button`
-//     border: none;
-//     color: red;
-//     width: 30rem;
-// `
 
 
 const Navbar = () => {
-    
+
 
     const [show, setShow] = useState(false)
 
@@ -75,6 +63,12 @@ const Navbar = () => {
                     <Link to="/cjenovnik" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Cjenovnik</Link>
                 </li>
                 <li>
+                    <Link to="/edukacija" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Edukacija</Link>
+                </li>
+                <li>
+                    <Link to="/shop" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Shop</Link>
+                </li>
+                <li>
                     <Link to="/usluge" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Usluge</Link>
                 </li>
                 <li>
@@ -83,17 +77,11 @@ const Navbar = () => {
                 <li>
                     <Link to="/rezervacija" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Kontakt</Link>
                 </li>
-                <li>
-                    <Link to="/shop" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Shop</Link>
-                </li>
-                <li>
-                    <Link to="/test" className={navStyle.navLink} activeClassName={navStyle.activeLink} onClick={klik}>Test strana</Link>
-                </li>
             </ul>
 
 
 
-            <div className={navStyle.navCentar}>
+            <div >
                 <Link to="/" className={navStyle.logo}>
                     <img src={logo} alt="logo"/>
                 </Link>

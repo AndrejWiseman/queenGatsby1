@@ -22,15 +22,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    // `gatsby-plugin-scroll-reveal`,
 
-    {
-      resolve: 'gatsby-plugin-load-script',
-      options: {
-        src: '/static/scripts/script.js', // Change to the script filename
-      },
-    },
+
 
     {
       resolve: `gatsby-source-filesystem`,
