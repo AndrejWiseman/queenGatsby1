@@ -40,7 +40,7 @@ const InstaSlicice = () => {
 
             <div className={instaSliciceStyle.box2}>
                 <div className={instaSliciceStyle.box21}>
-                    <a href="https://www.instagram.com/kozmeticki_salon_queen/" target="_blank" ><CiInstagram /> <p>PRATITE NAS</p></a>
+                    <a href="https://www.instagram.com/kozmeticki_salon_queen/" target="_blank" rel="noreferrer"><CiInstagram /> <p>PRATITE NAS</p></a>
                 </div>
 
                 <div className={instaSliciceStyle.box22}
@@ -49,7 +49,7 @@ const InstaSlicice = () => {
                     data-sal-easing="ease"
                     data-sal-duration="500"
                 >
-                    <a href="https://www.instagram.com/p/CpDm1kLDdSZ/" target="_blank" className={instaSliciceStyle.box22Slicica}>
+                    <a href="https://www.instagram.com/p/CpDm1kLDdSZ/" target="_blank" rel="noreferrer" className={instaSliciceStyle.box22Slicica}>
                         <StaticImage
                             src="../assets/images/osnovne/insta1.jpg"
                             alt="slika"
@@ -58,7 +58,7 @@ const InstaSlicice = () => {
                             layout="fullWidth"
                         />
                     </a>
-                    <a href="https://www.instagram.com/p/CoZS_JfoNLd/" target="_blank" className={instaSliciceStyle.box22Slicica}>
+                    <a href="https://www.instagram.com/p/CoZS_JfoNLd/" target="_blank" rel="noreferrer" className={instaSliciceStyle.box22Slicica}>
                         <StaticImage
                             src="../assets/images/osnovne/insta3.jpg"
                             alt="slika"
@@ -68,7 +68,7 @@ const InstaSlicice = () => {
                             // style={{height: "100px"}}
                         />
                     </a>
-                    <a href="https://www.instagram.com/p/Coy6i6_DGWA/" target="_blank" className={instaSliciceStyle.box22Slicica}>
+                    <a href="https://www.instagram.com/p/Coy6i6_DGWA/" target="_blank" rel="noreferrer" className={instaSliciceStyle.box22Slicica}>
                         <StaticImage
                             src="../assets/images/osnovne/insta4.jpg"
                             alt="slika"
@@ -78,7 +78,7 @@ const InstaSlicice = () => {
                             // style={{height: "100px"}}
                         />
                     </a>
-                    <a href="https://www.instagram.com/p/CnVAs2auv6N/" target="_blank" className={instaSliciceStyle.box22Slicica}>
+                    <a href="https://www.instagram.com/p/CnVAs2auv6N/" target="_blank" rel="noreferrer" className={instaSliciceStyle.box22Slicica}>
                         <StaticImage
                             src="../assets/images/osnovne/insta2.jpg"
                             alt="slika"
@@ -89,7 +89,7 @@ const InstaSlicice = () => {
 
                         />
                     </a>
-                    <a href="https://www.instagram.com/p/CG-p1Tzny4d/" target="_blank" className={instaSliciceStyle.box22Slicica}>
+                    <a href="https://www.instagram.com/p/CG-p1Tzny4d/" target="_blank" rel="noreferrer" className={instaSliciceStyle.box22Slicica}>
                         <StaticImage
                             src="../assets/images/osnovne/insta6.jpg"
                             alt="slika"
@@ -99,7 +99,7 @@ const InstaSlicice = () => {
                             // style={{height: "100px"}}
                         />
                     </a>
-                    <a href="https://www.instagram.com/p/CkTAtD4Dp64/" target="_blank" className={instaSliciceStyle.box22Slicica}>
+                    <a href="https://www.instagram.com/p/CkTAtD4Dp64/" target="_blank" rel="noreferrer" className={instaSliciceStyle.box22Slicica}>
                         <StaticImage
                             src="../assets/images/osnovne/insta5.jpg"
                             alt="slika"
